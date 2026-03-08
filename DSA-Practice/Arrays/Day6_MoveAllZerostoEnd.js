@@ -1,4 +1,4 @@
-//Problem 5: Given an array, move all 0s to the end while keeping the order of non-zero elements the same.
+//Problem 6: Given an array, move all 0s to the end while keeping the order of non-zero elements the same.
 
 function moveZeros(arr) {
     let pos = 0;
