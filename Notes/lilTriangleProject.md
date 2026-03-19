@@ -194,13 +194,13 @@ On the frontend, we also hide UI elements based on role to improve user experien
 
 In Express.js, we implemented RBAC using JWT and custom middleware.
 
-After login, we generate a JWT that includes userId, role, and tenantId.
+After login, we generate a JWT that includes userId, role, and schoolId.
 
 For protected routes, we created two middleware functions:
 
 1. Authentication middleware:
    - Verifies the JWT token
-   - Extracts user details (userId, role, tenantId)
+   - Extracts user details (userId, role, schoolId)
    - Attaches them to the request object
 
 2. Authorization middleware (RBAC):
@@ -245,7 +245,7 @@ I used compound indexes on frequently queried fields like schoolId, classId, and
 
 I also used projection to fetch only required fields and optimized aggregation pipelines.
 
-This reduced query execution time by around 35%.
+This reduced query execution time..
 
  # ❓ What if database grows large?
 
