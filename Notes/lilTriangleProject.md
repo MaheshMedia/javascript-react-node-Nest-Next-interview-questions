@@ -350,9 +350,3 @@ I break tasks into smaller parts, prioritize critical features, and ensure regul
 # ❓ How do you work in a team?
 
 I collaborate closely with frontend/backend teams, participate in code reviews, and follow Agile practices like sprint planning and daily standups.
-
-
-
-
-
-
