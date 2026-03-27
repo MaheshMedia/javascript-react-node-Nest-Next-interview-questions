@@ -1,8 +1,8 @@
-1) What is Nestjs?
-2) How can you install NestJS and set up a new project on your machine?
-3) What is Dependency Injection in NestJS?
-4) Layers in NestJS?
-5) Complete Architecture Flow
+# ❓ What is Nestjs?
+# ❓ How can you install NestJS and set up a new project on your machine?
+# ❓ What is Dependency Injection in NestJS?
+# ❓ Layers in NestJS?
+# ❓ Complete Architecture Flow
 
 
 
@@ -10,14 +10,14 @@
 ## Question & Answers
 
 
-Qns) What is Nestjs?
+# Qns) What is Nestjs?
 
  - Nest(NestJS) is a framework for building efficient, scalable Node.js server side applications. It uses progressive JavaScript and its built with and fully suports Typescript.
 
 
 
 
-Qns) How can you install NestJS and set up a new project on your machine?
+# Qns) How can you install NestJS and set up a new project on your machine?
 
 - To install NestJS on your machine, you need to have Node.js and npm (Node Package Manager) installed. Once you have those, you can install the NestJS CLI (Command Line Interface) globally on your machine using the following command:
 
@@ -45,7 +45,7 @@ If you choose to generate a REST API, it will also generate DTO (Data Transfer O
 
 
 
-Qns) What is Dependency Injection in NestJS?
+# Qns) What is Dependency Injection in NestJS?
 
  - Dependency Injection means we do not create objects manually using "new".
  - Instead, NestJS automatically creates and injects required dependencies.
@@ -75,8 +75,6 @@ How Does It Work Internally?
 - It stores them in a container
 - When needed, it injects them
 
-)
-
 🔹 Why Dependency Injection is Important?
 
 ✅ Loose coupling
@@ -86,7 +84,7 @@ How Does It Work Internally?
 
 
 
-Qns) Layers in NestJS?
+# Qns) Layers in NestJS?
 
  - Main layers are:
   - Controller → Service → Repository → Database
@@ -151,7 +149,7 @@ Repository handles:
 
 
 
- Qns) Complete Architecture Flow
+# Qns) Complete Architecture Flow
 
     Client
     ↓
